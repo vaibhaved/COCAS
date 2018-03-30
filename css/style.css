@@ -1,19 +1,22 @@
-html {
+html{
     position: absolute;
     left: 2%;
     right: 2%;
     background-color: #d9d9d1;
-    margin-top: -0.5%;
+    font-size: 100%;
+    margin-top: -0.55%;
+    vertical-align: baseline;
+}
+body {
+    font-size: 100%;
+    overflow-x: hidden;
+    vertical-align: baseline;
 }
 header {
     position: relative;
     display: block;
     width: 100%;
     overflow: hidden;
-}
-@font-face {
-    font-family: Aileron;
-    src: url(fonts/Aileron-Regular.otf);
 }
 #branding {
     text-transform: uppercase;
@@ -66,13 +69,25 @@ header {
     color: #2456a5;
     text-decoration: none;
 }
+#Courses p a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    margin-top: -3.4%;
+    width: 100%;
+    position: relative;
+}
+#whats-happening {
+    background-color: white;
+    padding: 2em 35px 2em 35px;
+    position: relative; 
+}
 #explore {
-    position: absolute;
     background-color: #333;
-    top: 15%;
-    left: 3%;
-    right: 68%;
+    margin-top: -28.6%;
+    margin-right: 69%;
     padding: 2em 4em 1em 2em;
+    box-sizing: border-box;
 }
 #explore h1 {
     color: white;
@@ -82,7 +97,49 @@ header {
     font-weight: 400;
     font-family: Open Sans, Arial, sans-serif;
 }
-#explore p a{
+#explore p a {
     color: #f6be00;
     text-decoration: none;
+}
+#explore p a:hover {
+    text-decoration: underline;
+}
+.note {
+    top: 5%;
+    position: absolute;
+    left: 72%;
+    height: 90%;
+    width: 72.6%;
+    box-sizing: border-box;
+}
+.note img {
+    display: block;
+    width: 35%;
+    height: 97%;
+}
+.note-details {
+    background: rgba(255,255,255,0.1);
+    position: absolute;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 31.9%;
+    height: 44%;
+    top: 53%;
+}
+.note-details p {
+    font-family: Open Sans, Arial, sans-serif;
+    color: white;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+.note-details a {
+    text-decoration: none;
+}
+.note-details a:hover {
+    text-decoration: underline black;
+}
+.note-details span {
+    background-color: #f6be00;
+    font-family: Open Sans, Arial, sans-serif;
 }
