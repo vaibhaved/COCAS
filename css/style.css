@@ -193,7 +193,7 @@ header {
 #aboutimg{
     position: relative;
     float: right;
-    width:71%;
+    width: 71%;
     height: 74%;
     margin-right: 2%;
     margin-top: 2%;
@@ -214,19 +214,25 @@ header {
 }
 .column {
     float: left;
-    height: 300px;
+    position: relative;
+    left: -25%;
+    height: 30%;
+    width: 100%;
     font-weight: 200;
     font-family: Open Sans, Arial, sans-serif;
     padding: 2em 4em 1em 2em;
-    color: white
+    color: white;
 }
-
-.left, .right {
-  width: 33%;
+.column p {
+	font-size: 14px;
+}
+.left {
+	float: left;
+    width: 26%;
 }
 
 .left h1{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: Open Sans, Arial, sans-serif;
 }
@@ -237,25 +243,12 @@ header {
 .left a:hover {
     text-decoration: underline;
 }
-.right h1{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: Open Sans, Arial, sans-serif;
-}
-.right p a{
-    color: white;
-    text-decoration: none;
-}
-
-.right a:hover {
-    text-decoration: underline;
-}
 .middle {
-  width: 34%;
+  	width: 26%;
 }
 
 .middle h1{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: Open Sans, Arial, sans-serif;
 }
@@ -271,7 +264,23 @@ header {
     display: table;
     clear: both;
 }
+.right {
+	width: 20%;
+	float: right;
+}
+.right h1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Open Sans, Arial, sans-serif;
+}
+.right p a{
+    color: white;
+    text-decoration: none;
+}
 
+.right a:hover {
+    text-decoration: underline;
+}
 .copyright{
     background-color: #40403E;
     height: 100px;
@@ -281,7 +290,6 @@ header {
 #seperation{
     margin-left: 2%;
     margin-right: 2%;
-    border-color: white;
     border-top:1px solid white;
     border-spacing: 2px;
 }
