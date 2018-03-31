@@ -21,7 +21,7 @@ header {
 #branding {
     text-transform: uppercase;
     background-color: black;
-    font-size: 14px;
+    font-size: 1em;
     font-family: Open sans, Arial, sans-serif;
     color: #fff;
     overflow: hidden;
@@ -44,7 +44,7 @@ header {
 }
 #main {
     position: relative;
-    height: 500px;
+    height: 50%;
     width: 100%;
 }
 #main img {
@@ -84,8 +84,10 @@ header {
     padding: 2em 35px 2em 35px;
     position: relative;
     background-color: white; 
+    height: 50%;
 }
 #explore {
+    height: 228%;
     background-color: #333;
     margin-top: -28.6%;
     margin-right: 69%;
@@ -215,9 +217,7 @@ header {
 .column {
     float: left;
     position: relative;
-    left: -25%;
     height: 30%;
-    width: 100%;
     font-weight: 200;
     font-family: Open Sans, Arial, sans-serif;
     padding: 2em 4em 1em 2em;
@@ -228,7 +228,7 @@ header {
 }
 .left {
 	float: left;
-    width: 26%;
+    width: 45%;
 }
 
 .left h1{
@@ -265,7 +265,6 @@ header {
     clear: both;
 }
 .right {
-	width: 20%;
 	float: right;
 }
 .right h1{
