@@ -29,7 +29,7 @@ header {
 #branding h1,h2,h3 {
     line-height: 0.8;
     position: relative;
-    left: 45%;
+    padding-left: 60%;
 }
 
 #branding span {
@@ -87,7 +87,7 @@ header {
     height: 50%;
 }
 #explore {
-    height: 228%;
+    height: 900px;
     background-color: #333;
     margin-top: -28.6%;
     margin-right: 69%;
